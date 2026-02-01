@@ -1,0 +1,116 @@
+:root {
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  color: #3b0a1b;
+  background: #fff6f8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #fff, #ffe1ea 70%, #ffd2df);
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+}
+
+.page {
+  width: min(720px, 100%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.badge {
+  align-self: center;
+  background: #ff7aa2;
+  color: #fff;
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.2rem, 3vw, 3rem);
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 24px;
+  padding: 32px;
+  box-shadow: 0 20px 60px rgba(120, 28, 60, 0.18);
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  border: none;
+  padding: 14px 30px;
+  border-radius: 999px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn.primary {
+  background: #ff3d76;
+  color: #fff;
+  box-shadow: 0 12px 30px rgba(255, 61, 118, 0.35);
+}
+
+.btn.ghost {
+  background: #ffe4ed;
+  color: #b10b45;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.hint {
+  margin-top: 16px;
+  font-size: 0.9rem;
+  color: #8a3b55;
+}
+
+.message {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.back {
+  color: #b10b45;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back:hover {
+  text-decoration: underline;
+}

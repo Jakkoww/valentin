@@ -9,7 +9,7 @@ function HomePage() {
         <p className="badge">Servane</p>
         <h1>Veux-tu etre ma Valentine ?</h1>
         <p className="subtitle">
-          J&apos;ai une petite question pour toi, ma aurore boréale.
+          Choisis de façon avisée.
         </p>
       </header>
 
@@ -47,15 +47,17 @@ function LovePage() {
       <div className="card message">
         <p>
           Ma Servane,<br />
-          
-          Je sais que tous les jours ne sont pas faciles, entre la distance et la difficulté que l'ont peut avoir à dire ce que l'on ressent parfois. <br/>
-          Je veux tout de même te dire quelque chose de très important pour moi. <br/>
-          Tu n'as absolument rien à me prouver! Tu es amplement à la hauteur, telle que tu es avec tes qualités et tes fragilités, de mes rêves les plus fous. <br/>
-          Et ce que j'aime chez toi ne dépend en rien de ce que tu peux faire de bien ou de mal, ni de ce que tu peux croire devoir être. <br/>
-          Tout le monde change, et tu ne fais pas exception. Je n'arrêterai pas de t'aimer pour qui tu es, car je n'ai jamais choisi une version figée de toi, mais plutôt toi, dans toute ta splendeur! <br/>
+
+          Je sais que certains jours sont plus lourds que d’autres, que la distance parfois nous met à l’épreuve et que les mots ont du mal à porter tout ce que nos cœurs ressentent. <br/>
+          Pourtant, il y a une chose essentielle que je veux que tu entendes aujourd’hui. <br/>
+
+          Tu n’as rien à me prouver, jamais. Tu es déjà, telle que tu es — avec ta lumière et tes failles, tes élans et tes doutes — bien au-delà de tout ce que j’aurais pu rêver. <br/>
+          Ce que j’aime en toi ne dépend d’aucune réussite, d’aucune perfection, d’aucun rôle que tu penserais devoir jouer. <br/>
+
+          Nous changeons tous au fil du temps, comme des saisons qui se répondent. Et moi, je ne suis pas tombé amoureux d’une image figée, mais de toi entière, vivante, unique, dans toute ta splendeur. <br/>
           <br/>
-          J'ai hâte de voir la Servane avec qui j'avancerai demain. <br/>
-          Je t'aime et je t'embrasse tendrement. <br/>
+          J’ai hâte de découvrir chaque jour la Servane que la vie fera éclore, celle avec qui je continuerai d’avancer main dans la main. <br/>
+          Je t’aime infiniment et je t’embrasse avec toute ma tendresse. <br/>
           Jacques, ton bibou.
         </p>
       </div>
